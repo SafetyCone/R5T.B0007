@@ -1,0 +1,3 @@
+R5T.B0007.X002 - Indentation instances provided as SyntaxTriviaLists by base extensions.
+
+GOALS:
