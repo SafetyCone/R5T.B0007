@@ -26,5 +26,13 @@ namespace System
 
             return output;
         }
+
+        public static Indentation Interface(this IIndentation _)
+        {
+            var output = _.ByTabCount(
+                TabCounts.InterfaceTabCount);
+
+            return output;
+        }
     }
 }
